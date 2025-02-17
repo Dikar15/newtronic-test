@@ -82,11 +82,13 @@ Aplikasi berbasis web yang memiliki 3 menu berdasarkan studikasus pada soal test
 ## **Konfigurasi Pusher:**
 Tambahkan konfigurasi Pusher di `.env`:
 ```
-PUSHER_APP_ID=your_pusher_app_id
-PUSHER_APP_KEY=your_pusher_app_key
-PUSHER_APP_SECRET=your_pusher_app_secret
-PUSHER_APP_CLUSTER=your_pusher_app_cluster
 BROADCAST_DRIVER=pusher
+PUSHER_APP_ID=1942567
+PUSHER_APP_KEY=95520a7c8473b7735ccc
+PUSHER_APP_SECRET=2e49dd1533287e07fec9
+PUSHER_APP_CLUSTER=mt1
+PUSHER_SCHEME=https
+PUSHER_APP_USE_TLS=true
 ```
 
 ---
